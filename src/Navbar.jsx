@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
         {showLinks && (
           <div className="links-container">
-            <div className="links">
+            <ul className="links">
               {links.map((link) => {
                 const { id, url, text } = link
                 return (
@@ -30,7 +30,7 @@ const Navbar = () => {
                   </li>
                 )
               })}
-            </div>
+            </ul>
           </div>
         )}
       </nav>
