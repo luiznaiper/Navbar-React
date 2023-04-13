@@ -1,8 +1,10 @@
+import Navbar from './Navbar'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hola</h1>
-    </div>
+    <main>
+      <Navbar />
+    </main>
   )
 }
 
