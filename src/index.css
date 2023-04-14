@@ -279,6 +279,7 @@ nav {
 }
 .logo {
   height: 40px;
+  margin-bottom: 15px;
 }
 .links a {
   color: var(--grey-700);
@@ -314,19 +315,18 @@ nav {
     padding: 0;
   }
   .nav-center {
-    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.5rem;
   }
   .links-container {
     height: auto !important;
   }
   .links {
     display: flex;
-    gap: 0.5rem;
+    gap: 3rem;
   }
   .links a {
     padding: 0;
